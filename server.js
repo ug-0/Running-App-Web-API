@@ -22,7 +22,7 @@ app.get('/api/runs', (request, response) => {
   response.json(info)
   })
 
-//get a specific post
+//get a specific run
 
 //post a run
 app.post('/api/run/', (req, res) => {
@@ -32,10 +32,6 @@ app.post('/api/run/', (req, res) => {
   res.json("Run added!");
 })
 
-//delete a run 
-app.delete('/run/#', (req, res) => {
-
-})
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
