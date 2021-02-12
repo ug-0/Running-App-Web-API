@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "running-app-api-executor",
+    "name": "running-app-api",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "yqupgbkal5"
+  }
+}
